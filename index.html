@@ -8,14 +8,24 @@
     <title>Template</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<style>
+body {
+    background-image: url("http://media2.abc15.com/photo/2015/07/07/KNXV%20Natural%20Grocers%20_1436308427854_20996501_ver1.0_640_480.jpg");
+    background-size: cover;
+}
+</style>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <h2> Hunky Dorie </h2>
 
-    <p>Case Price: $<input id="casePrice" type="number" min="0" max ="1000000" onchange="computePrice()"></p>
-    <p>Each's or #'s: <input id="Each" type="number" min="0" max ="1000000" onchange="computePrice()"></p>
-    <h1 id ="Price1"></h1>
+  <div align ="center">
+    <h1>Hello, Bunnygirl!</h1>
+    <h2> I love you <3 </h2>
+
+    <h3>Case Price: $<input id="casePrice" type="number" min="0" max ="1000000" onchange="computePrice()" STYLE="color: black; font-weight: bold;"></h3>
+    <h3>Each's or #'s: #<input id="Each" type="number" min="0" max ="1000000" onchange="computePrice()" STYLE="color: black; font-weight: bold;"></h3>
+    <h2 id ="Price1"></h2>
+  </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
