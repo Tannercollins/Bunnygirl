@@ -1,3 +1,10 @@
+body {
+    background-size: 100%;
+    background-image: url("http://media2.abc15.com/photo/2015/07/07/KNXV%20Natural%20Grocers%20_1436308427854_20996501_ver1.0_640_480.jpg");
+
+}
+
+
 h1 {
 color: hotpink;
 }
