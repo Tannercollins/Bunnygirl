@@ -9,5 +9,18 @@ h3 {
 
 h2 {
   color: white;
-  font-weight: bold;  
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  color: pink;
+  font-size: 12px;
+}
+
+::-moz-placeholder {
+  color: pink;
+}
+
+:-ms-input-placeholder {
+  color: pink;
 };
